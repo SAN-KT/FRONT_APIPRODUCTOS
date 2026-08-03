@@ -15,7 +15,7 @@ SPA en React + TypeScript para gestionar productos y categorías, consumiendo la
 ## Requisitos previos
 
 - Node.js 20 o superior
-- La Api de backend corriendo (por defecto en `http://localhost:5080`)
+- La Api de backend corriendo (por defecto en `http://localhost:5080`), con al menos una categoría y un producto cargados — ver la sección "Carga inicial de datos" en el README del backend (`API_PRODUCTOS`). Sin eso, el listado aparece vacío.
 
 ## Instalación y ejecución
 
