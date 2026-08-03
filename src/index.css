@@ -1,0 +1,11 @@
+/* Reset minimo. El resto del diseño (colores, espaciados, sombras) lo maneja Mantine
+   a traves de las props de sus componentes (ver src/main.tsx para el tema). */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* Un poco mas de peso que "normal" (400), sin llegar a "bold" (700) */
+  font-weight: 500;
+}
